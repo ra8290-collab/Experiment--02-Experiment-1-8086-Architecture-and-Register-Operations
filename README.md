@@ -1,4 +1,8 @@
+
+
+#radhika RA2511030010348
 # Experiment--02-Experiment-1-8086-Architecture-and-Register-Operations
+
  
 ## Aim
 
@@ -193,6 +197,7 @@ Write an 8086 assembly language program to exchange the contents of two
 ## Screenshot of the results 
 
 
+<img width="1186" height="690" alt="image" src="https://github.com/user-attachments/assets/f430fad6-b09d-482a-a128-1ce9cb8cc7e3" />
 
 ## Result
 
