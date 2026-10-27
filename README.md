@@ -1,4 +1,6 @@
 # Experiment--02-Experiment-1-8086-Architecture-and-Register-Operations
+NAME-RADHIKA
+REG NO.-RA2511030010348
  
 ## Aim
 
@@ -139,6 +141,8 @@ END MAIN
 -   AX = `1234H`
 -   BX = `1234H`
 -   RESULT = `1234H`
+<img width="640" height="294" alt="image" src="https://github.com/user-attachments/assets/e1df2587-4621-4e54-8354-48b0071ef871" />
+
 
 ### Explanation
 
@@ -190,7 +194,30 @@ Write an 8086 assembly language program to exchange the contents of two
 6.  Inspect the registers and memory variables.
 7.  Record the observed results and compare them with the expected
     results.
+
+
+##code
+    .MODEL SMALL
+.STACK 100H
+
+.DATA
+    VALUE1 DW 1111H
+    VALUE2 DW 2222H
+
+.CODE
+
+    MOV AX, @DATA
+    MOV DS, AX
+
+    MOV AX, VALUE1       
+    MOV BX, VALUE2       
+
+    MOV VALUE1, BX       
+    MOV VALUE2, AX       
+
+    HLT
 ## Screenshot of the results 
+<img width="635" height="295" alt="image" src="https://github.com/user-attachments/assets/a8cdde5d-325b-49e4-92d8-8f335564d4ed" />
 
 
 
